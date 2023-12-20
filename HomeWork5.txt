@@ -1,0 +1,17 @@
+"1. Company - classı yaradılsın. Özündə List Employee saxlayır. Aşağıdakı method-ları olmalıdır.
+     hire - bir iyeni işçi əlavə olunur
+,    hireAll - List işçi əlavə olunur
+     fire(int count) - count sayda işçi işdən kənarlaşdırılır
+     List<Employee> getTopSalaryStaff(int count) - count qədər ən çox maaş alanlar
+     List<Employee> getLowestSalaryStaff(int count) - count qədər ən az maaş alanlar
+
+Employee interface-dir.
+        int getMonthSalary() - aylıq məvacib
+       onFire() - İşdən çıxarılanda  print etmək
+       onHire() - işə qəbul ediləndə print etmək
+Emplyee interface-ni implement edən 3 class var. Operator, Manager, TopManager.
+main method-da Company yaradıb içərisinə 200 nəfər Operator, 50 nəfər manager və 10 nəfər Top Manager əlavə edin(random maaşla).
+50% ştatı ixtisar edin. Ən çox  və ən az maaş alanları çapa verin.
+
+Classların field və method-larını mənaya uyğun olaraq özünüz təyin edin
+"
